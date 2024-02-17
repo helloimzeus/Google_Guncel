@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.googleContainer {
+    width: 100%;
+}
+
+.header {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
+
+.header>div:first-child {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.header>div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* background-color: rgb(65, 184, 18); */
+}
+
+.header>div:last-child button {
+    padding: 10px;
+    border: 0px;
+    /* border-radius: 10px; */
+    outline: 0px;
+    background-color: rgb(69, 132, 239);
+    color: white;
+}
+
+.img {
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: fit-content;
+    /* background-color: brown; */
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+
+.formContainer>input {
+    padding: 5px 10px;
+    border-radius: 50px;
+    width: 50vh;
+    height: 30px;
+    border: 1px solid grey;
+
+}
+
+.formButonControl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    /* background-color: aqua; */
+    margin: 20px auto 10px auto;
+}
+
+.formButonControl>button {
+    border: none;
+    color: grey;
+    font-size: medium;
+    padding: 10px;
+    background-color: rgb(242, 242, 242);
+}
+.footer{
+    /* margin: 20px; */
+    position: fixed;
+    padding: 10px 0px;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: rgb(242, 242, 242);
+}
+.footer>div:first-child {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.footer>div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+    /* background-color: rgb(65, 184, 18); */
+}
